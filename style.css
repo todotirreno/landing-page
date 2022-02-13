@@ -57,6 +57,7 @@ h1 {
     font-weight: bolder;
     font-size: inherit;
     border: solid black;
+    cursor:pointer;
 }
 
 
@@ -153,10 +154,27 @@ figcaption {
     background-color: #3882f6;
     color: #e5e7eb;
     width: 1000px;
-    height: 100px;
+    height: 150px;
+    margin: 100px 0;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
 ;
+}
+
+.call-to-action-heading {
+    text-align: left;
 }
 
 .lower-sign-up button {
     border: solid white;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    border-color: #1f2937;
 }
