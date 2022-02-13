@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.random-info, .lower-sign-up {
+    background-color: white;
+    color: #1f2937;
+    text-align: center;
+}
+
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.su-inner-box {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
