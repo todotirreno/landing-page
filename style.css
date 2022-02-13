@@ -124,18 +124,37 @@ figcaption {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.quote-text {
+    margin-top: 100px;
+    /*height: 300px;*/
+    width: 850px;
 }
 
 .author {
     font-weight: bold;
     font-style: normal;
-    text-align: right;
+    align-self: end;
+    margin-right: 350px;
+    margin-bottom: 100px;
+    font-size: 0.66em;
+}
+
+.lower-sign-up {
+    display: flex;
+    justify-content: center;
 }
 
 .su-inner-box {
     background-color: #3882f6;
     color: #e5e7eb;
+    width: 1000px;
+    height: 100px;
+;
 }
 
 .lower-sign-up button {
