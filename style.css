@@ -5,6 +5,7 @@
 }
 body {
     font-size: 18px;
+    font-family: sans-serif;
     color: #e5e7eb;
     background-color: #1F2937;
 }
@@ -15,13 +16,28 @@ h1 {
     color: #f9faf8;
 }
 
+.hero-placeholder {
+    background-color: grey;
+    padding: 50px;
+}
+
 .random-info, .lower-sign-up {
     background-color: white;
     color: #1f2937;
     text-align: center;
 }
 
+.random-placeholder {
+    border: 3px solid #3882f6;
+    width: 100px;
+    height: 100px;
+    border-radius: 0.5em;
+}
 
+.header-logo {
+    color: #f9faf8;
+    font-weight: bolder;
+}
 
 .quote {
     background-color: #e5e7eb;
